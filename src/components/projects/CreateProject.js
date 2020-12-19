@@ -24,7 +24,7 @@ class CreateProject extends Component {
         // }
         this.props.createProject(this.state)
         this.props.history.push('/');
-        
+        // helloemir
     }
     render() {
         const {auth} = this.props;
